@@ -1,5 +1,6 @@
-
 This is a fork of [theSmaw/Caja-HTML-Sanitizer](https://github.com/theSmaw/Caja-HTML-Sanitizer) just for the `unescapeEntities` method.
+
+21.7kb to 5.9kb minified if you just need to unescape.
 
 ## Installation
 
@@ -23,7 +24,7 @@ unescapeEntities('your string'); // The plain text of a chunk of HTML CDATA whic
 
 ## Caveats
 
-Skattyadz disclaimer: I've just deleted most of the API then done some tree shaking. I don't understand this code
+Skattyadz disclaimer: I've just deleted most of the API then performed some tree shaking. I don't understand this code
 
 Original disclaimer: It's use this at your own risk really - Caja HTML Sanitizer was written by people far cleverer than me. I have just repackaged it to solve a problem I had (sanitization on a Node server). It seems to work, and it passes all its tests in re-packaged form - however I don't fully understand its internals so cannot guarantee its security.
 
